@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#263238}.title{font-size:20px;font-weight:700}.axis{font-size:13px}.value{font-size:12px;font-weight:700}</style>
+<text x="460" y="28" text-anchor="middle" class="title">Formal WebShop Performance (95% CI)</text>
+<line x1="90" y1="355.0" x2="850" y2="355.0" stroke="#ECEFF1"/>
+<text x="78" y="359.0" text-anchor="end" class="axis">0.0</text>
+<line x1="90" y1="305.0" x2="850" y2="305.0" stroke="#ECEFF1"/>
+<text x="78" y="309.0" text-anchor="end" class="axis">0.1</text>
+<line x1="90" y1="255.0" x2="850" y2="255.0" stroke="#ECEFF1"/>
+<text x="78" y="259.0" text-anchor="end" class="axis">0.2</text>
+<line x1="90" y1="205.0" x2="850" y2="205.0" stroke="#ECEFF1"/>
+<text x="78" y="209.0" text-anchor="end" class="axis">0.3</text>
+<line x1="90" y1="155.0" x2="850" y2="155.0" stroke="#ECEFF1"/>
+<text x="78" y="159.0" text-anchor="end" class="axis">0.4</text>
+<line x1="90" y1="105.0" x2="850" y2="105.0" stroke="#ECEFF1"/>
+<text x="78" y="109.0" text-anchor="end" class="axis">0.5</text>
+<rect x="137.0" y="287.0" width="40" height="68.0" rx="2" fill="#607D8B"/>
+<line x1="157.0" y1="317.7" x2="157.0" y2="253.2" stroke="#263238" stroke-width="2"/>
+<line x1="150.0" y1="317.7" x2="164.0" y2="317.7" stroke="#263238" stroke-width="2"/>
+<line x1="150.0" y1="253.2" x2="164.0" y2="253.2" stroke="#263238" stroke-width="2"/>
+<text x="157.0" y="279.0" text-anchor="middle" class="value">0.136</text>
+<rect x="193.0" y="305.0" width="40" height="50.0" rx="2" fill="#FFB300"/>
+<line x1="213.0" y1="327.4" x2="213.0" y2="267.8" stroke="#263238" stroke-width="2"/>
+<line x1="206.0" y1="327.4" x2="220.0" y2="327.4" stroke="#263238" stroke-width="2"/>
+<line x1="206.0" y1="267.8" x2="220.0" y2="267.8" stroke="#263238" stroke-width="2"/>
+<text x="213.0" y="297.0" text-anchor="middle" class="value">0.100</text>
+<text x="185.0" y="380" text-anchor="middle" class="axis">Baseline</text>
+<rect x="327.0" y="217.2" width="40" height="137.8" rx="2" fill="#1976D2"/>
+<line x1="347.0" y1="255.6" x2="347.0" y2="177.0" stroke="#263238" stroke-width="2"/>
+<line x1="340.0" y1="255.6" x2="354.0" y2="255.6" stroke="#263238" stroke-width="2"/>
+<line x1="340.0" y1="177.0" x2="354.0" y2="177.0" stroke="#263238" stroke-width="2"/>
+<text x="347.0" y="209.2" text-anchor="middle" class="value">0.276</text>
+<rect x="383.0" y="260.0" width="40" height="95.0" rx="2" fill="#FFB300"/>
+<line x1="403.0" y1="292.4" x2="403.0" y2="216.1" stroke="#263238" stroke-width="2"/>
+<line x1="396.0" y1="292.4" x2="410.0" y2="292.4" stroke="#263238" stroke-width="2"/>
+<line x1="396.0" y1="216.1" x2="410.0" y2="216.1" stroke="#263238" stroke-width="2"/>
+<text x="403.0" y="252.0" text-anchor="middle" class="value">0.190</text>
+<text x="375.0" y="380" text-anchor="middle" class="axis">Planning</text>
+<rect x="517.0" y="267.5" width="40" height="87.5" rx="2" fill="#7B1FA2"/>
+<line x1="537.0" y1="301.7" x2="537.0" y2="229.6" stroke="#263238" stroke-width="2"/>
+<line x1="530.0" y1="301.7" x2="544.0" y2="301.7" stroke="#263238" stroke-width="2"/>
+<line x1="530.0" y1="229.6" x2="544.0" y2="229.6" stroke="#263238" stroke-width="2"/>
+<text x="537.0" y="259.5" text-anchor="middle" class="value">0.175</text>
+<rect x="573.0" y="285.0" width="40" height="70.0" rx="2" fill="#FFB300"/>
+<line x1="593.0" y1="312.4" x2="593.0" y2="244.3" stroke="#263238" stroke-width="2"/>
+<line x1="586.0" y1="312.4" x2="600.0" y2="312.4" stroke="#263238" stroke-width="2"/>
+<line x1="586.0" y1="244.3" x2="600.0" y2="244.3" stroke="#263238" stroke-width="2"/>
+<text x="593.0" y="277.0" text-anchor="middle" class="value">0.140</text>
+<text x="565.0" y="380" text-anchor="middle" class="axis">Reflection</text>
+<rect x="707.0" y="172.1" width="40" height="182.9" rx="2" fill="#00897B"/>
+<line x1="727.0" y1="213.9" x2="727.0" y2="129.6" stroke="#263238" stroke-width="2"/>
+<line x1="720.0" y1="213.9" x2="734.0" y2="213.9" stroke="#263238" stroke-width="2"/>
+<line x1="720.0" y1="129.6" x2="734.0" y2="129.6" stroke="#263238" stroke-width="2"/>
+<text x="727.0" y="164.1" text-anchor="middle" class="value">0.366</text>
+<rect x="763.0" y="225.0" width="40" height="130.0" rx="2" fill="#FFB300"/>
+<line x1="783.0" y1="263.0" x2="783.0" y2="178.1" stroke="#263238" stroke-width="2"/>
+<line x1="776.0" y1="263.0" x2="790.0" y2="263.0" stroke="#263238" stroke-width="2"/>
+<line x1="776.0" y1="178.1" x2="790.0" y2="178.1" stroke="#263238" stroke-width="2"/>
+<text x="783.0" y="217.0" text-anchor="middle" class="value">0.260</text>
+<text x="755.0" y="380" text-anchor="middle" class="axis">Plan + Reflect</text>
+<rect x="330" y="398" width="14" height="14" fill="#1976D2"/><text x="351" y="410" class="axis">Mean reward</text>
+<rect x="470" y="398" width="14" height="14" fill="#FFB300"/><text x="491" y="410" class="axis">Strict success rate</text>
+</svg>

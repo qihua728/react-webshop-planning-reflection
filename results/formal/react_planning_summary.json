@@ -1,0 +1,19 @@
+{
+  "method": "react_planning",
+  "episodes": 100,
+  "average_reward": 0.2755,
+  "success_rate": 0.19,
+  "average_steps": 12.29,
+  "average_llm_calls": 13.29,
+  "average_action_calls": 12.29,
+  "average_planning_calls": 1.0,
+  "average_reflection_calls": 0.0,
+  "average_input_tokens": 14051.04,
+  "average_output_tokens": 490.42,
+  "average_llm_latency_seconds": 14.6015,
+  "invalid_action_rate": 0.108218,
+  "invalid_auxiliary_outputs": 0,
+  "auxiliary_format_error_rate": 0.0,
+  "max_steps_rate": 0.63,
+  "environment_errors": 0
+}

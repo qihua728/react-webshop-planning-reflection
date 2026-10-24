@@ -1,0 +1,15 @@
+Read the WebShop instruction and initial page below.
+
+{observation}
+
+Create a concise task plan. Extract every hard product constraint, propose one focused search query,
+list what must be verified on the product page before buying, and give one fallback query strategy.
+Do not select a product and do not emit a WebShop action.
+Do not invent preferences or constraints that the user did not state. Keep the first query short:
+use the product category plus the most distinctive requested attributes instead of copying every
+constraint. The fallback must broaden the query by removing a weak term, not repeat the same query.
+
+Required form:
+plan[constraints: ...; search: ...; verify: ...; fallback: ...]
+
+Use the word plan only once. Keep the complete response under 90 words.

@@ -1,0 +1,19 @@
+{
+  "method": "react_baseline",
+  "episodes": 100,
+  "average_reward": 0.136,
+  "success_rate": 0.1,
+  "average_steps": 13.95,
+  "average_llm_calls": 13.95,
+  "average_action_calls": 13.95,
+  "average_planning_calls": 0.0,
+  "average_reflection_calls": 0.0,
+  "average_input_tokens": 13729.02,
+  "average_output_tokens": 481.09,
+  "average_llm_latency_seconds": 13.8086,
+  "invalid_action_rate": 0.071685,
+  "invalid_auxiliary_outputs": 0,
+  "auxiliary_format_error_rate": 0.0,
+  "max_steps_rate": 0.84,
+  "environment_errors": 0
+}

@@ -1,0 +1,19 @@
+{
+  "method": "react_reflection",
+  "episodes": 100,
+  "average_reward": 0.175,
+  "success_rate": 0.14,
+  "average_steps": 13.77,
+  "average_llm_calls": 15.52,
+  "average_action_calls": 13.77,
+  "average_planning_calls": 0.0,
+  "average_reflection_calls": 1.75,
+  "average_input_tokens": 15852.4,
+  "average_output_tokens": 639.76,
+  "average_llm_latency_seconds": 16.9158,
+  "invalid_action_rate": 0.08061,
+  "invalid_auxiliary_outputs": 16,
+  "auxiliary_format_error_rate": 0.091429,
+  "max_steps_rate": 0.8,
+  "environment_errors": 0
+}

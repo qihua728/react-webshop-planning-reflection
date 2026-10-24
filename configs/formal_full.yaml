@@ -1,0 +1,41 @@
+method: react_plan_reflect
+
+webshop:
+  base_url: "http://localhost:3000"
+  request_timeout_seconds: 60
+  request_retries: 2
+  git_commit: "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd"
+  patch_version: "full-streaming-ijson-v1"
+
+llm:
+  provider: deepseek
+  api_key_env: DEEPSEEK_API_KEY
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-v4-flash"
+  temperature: 0
+  max_tokens: 100
+  auxiliary_max_tokens: 220
+  request_timeout_seconds: 60
+  max_retries: 2
+  disable_thinking: true
+
+agent:
+  max_steps: 15
+  max_prompt_chars: 12000
+  prompt_file: prompts/react_baseline.txt
+  planning_prompt_file: prompts/planning.txt
+  reflection_prompt_file: prompts/reflection.txt
+  max_reflections: 2
+  reflection_midpoint_step: 8
+  reflection_history_steps: 5
+
+experiment:
+  task_prefix: fixed_
+  start_index: 10
+  count: 100
+  results_file: results/formal/react_plan_reflect.jsonl
+  summary_file: results/formal/react_plan_reflect_summary.json
+  resume: true
+  dataset_mode: full
+  dataset_version: "YWZBrandon/webshop-data@ce990fff5aee388db2706f07820c578ab68e0453"
+  prompt_version: plan-reflect-v3

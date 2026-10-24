@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">ReAct on WebShop</title>
+  <desc id="desc">Planning and reflection ablation. Four methods evaluated on the same 100 tasks, with 400 recorded episodes.</desc>
+  <rect width="1200" height="340" rx="18" fill="#102638"/>
+  <path d="M830 0h370v340H700Z" fill="#17364a"/>
+  <path d="M1150 28v284M1190 28v284M1110 28v284" stroke="#23465b" stroke-width="1"/>
+  <rect x="48" y="44" width="5" height="18" rx="2" fill="#70d6ba"/>
+  <text x="65" y="59" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="2" fill="#9cb8c9">AGENT EVALUATION / WEBSHOP</text>
+  <text x="48" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#f3f7fa">ReAct on WebShop</text>
+  <text x="50" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="23" fill="#bdd1df">Planning before action. Reflection when execution stalls.</text>
+  <path d="M50 198h610" stroke="#3e596b"/>
+  <text x="50" y="243" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="600" fill="#70d6ba">4 methods</text>
+  <text x="260" y="243" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="600" fill="#70d6ba">100 tasks</text>
+  <text x="475" y="243" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="600" fill="#70d6ba">400 episodes</text>
+  <text x="50" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#9cb8c9">Shared action budget · Paired statistics · Saved trajectories</text>
+  <rect x="850" y="74" width="268" height="192" rx="12" fill="#102638" stroke="#36586c"/>
+  <text x="876" y="109" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#a9c5d5">STRICT SUCCESS / 100 TASKS</text>
+  <rect x="876" y="140" width="74" height="22" rx="3" fill="#64879c"/>
+  <text x="962" y="157" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#c8d8e3">10%</text>
+  <text x="876" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#9cb8c9">ReAct</text>
+  <rect x="876" y="201" width="192" height="22" rx="3" fill="#70d6ba"/>
+  <text x="1076" y="218" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#f3f7fa">26%</text>
+  <text x="876" y="244" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#b8d5dd">Planning + Reflection</text>
+</svg>

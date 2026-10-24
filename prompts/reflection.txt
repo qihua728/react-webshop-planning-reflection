@@ -1,0 +1,24 @@
+Review the current WebShop attempt.
+
+Initial instruction and page:
+{observation}
+
+Current plan:
+{plan}
+
+Reflection triggers:
+{triggers}
+
+Recent trajectory:
+{recent_trajectory}
+
+Identify the concrete mistake using trajectory evidence, then state one revised strategy for the next action.
+Do not emit a WebShop action.
+The revised strategy must be valid on the current page, must not repeat a failed search or click,
+and must not add preferences that are absent from the user instruction. When repeated searches have
+not helped, inspect the closest visible candidate or use an exact visible back link.
+
+Required form:
+reflection[problem: ...; evidence: ...; revised_strategy: ...]
+
+Use the word reflection only once. Keep the complete response under 90 words.

@@ -1,0 +1,35 @@
+# Frozen baseline configuration. Keep shared settings unchanged in comparison runs.
+method: react_baseline
+
+webshop:
+  base_url: "http://localhost:3000"
+  request_timeout_seconds: 20
+  request_retries: 2
+  git_commit: "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd"
+
+llm:
+  provider: deepseek
+  api_key_env: DEEPSEEK_API_KEY
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-v4-flash"
+  temperature: 0
+  max_tokens: 100
+  auxiliary_max_tokens: 220
+  request_timeout_seconds: 60
+  max_retries: 2
+  disable_thinking: true
+
+agent:
+  max_steps: 15
+  max_prompt_chars: 12000
+  prompt_file: prompts/react_baseline.txt
+
+experiment:
+  task_prefix: fixed_
+  start_index: 0
+  count: 10
+  results_file: results/react_baseline.jsonl
+  summary_file: results/react_baseline_summary.json
+  resume: true
+  dataset_mode: small
+  prompt_version: react-v2

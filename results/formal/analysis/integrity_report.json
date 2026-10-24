@@ -1,0 +1,63 @@
+{
+  "expected_tasks_per_method": 100,
+  "methods": {
+    "react_baseline": {
+      "label": "Baseline",
+      "source": "results\\formal\\react_baseline.jsonl",
+      "raw_rows": 100,
+      "valid_unique_tasks": 100,
+      "missing_tasks": [],
+      "unexpected_tasks": [],
+      "duplicate_valid_tasks": [],
+      "environment_error_rows": 0,
+      "records_with_missing_required_fields": {},
+      "dataset_modes": [
+        "full"
+      ]
+    },
+    "react_planning": {
+      "label": "Planning",
+      "source": "results\\formal\\react_planning.jsonl",
+      "raw_rows": 100,
+      "valid_unique_tasks": 100,
+      "missing_tasks": [],
+      "unexpected_tasks": [],
+      "duplicate_valid_tasks": [],
+      "environment_error_rows": 0,
+      "records_with_missing_required_fields": {},
+      "dataset_modes": [
+        "full"
+      ]
+    },
+    "react_reflection": {
+      "label": "Reflection",
+      "source": "results\\formal\\react_reflection.jsonl",
+      "raw_rows": 100,
+      "valid_unique_tasks": 100,
+      "missing_tasks": [],
+      "unexpected_tasks": [],
+      "duplicate_valid_tasks": [],
+      "environment_error_rows": 0,
+      "records_with_missing_required_fields": {},
+      "dataset_modes": [
+        "full"
+      ]
+    },
+    "react_plan_reflect": {
+      "label": "Plan + Reflect",
+      "source": "results\\formal\\react_plan_reflect.jsonl",
+      "raw_rows": 100,
+      "valid_unique_tasks": 100,
+      "missing_tasks": [],
+      "unexpected_tasks": [],
+      "duplicate_valid_tasks": [],
+      "environment_error_rows": 0,
+      "records_with_missing_required_fields": {},
+      "dataset_modes": [
+        "full"
+      ]
+    }
+  },
+  "paired_task_count": 100,
+  "passed": true
+}
